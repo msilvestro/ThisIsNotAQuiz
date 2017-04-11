@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="it.matteosilvestro.quizproject.ResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:text="@string/result_explanation" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:background="@android:color/darker_gray" />
+
+        <!-- Paradox #1 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/margin">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_narrow"
+                android:text="@string/paradox_1"
+                android:textSize="@dimen/paradox_title"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_narrow"
+                android:text="@string/paradox_1_body"
+                android:textSize="@dimen/body_size" />
+
+            <TextView
+                android:id="@+id/paradox_1_choice_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/paradox_1_ans_1"
+                android:textSize="@dimen/body_size" />
+
+            <TextView
+                android:id="@+id/paradox_1_choice_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/paradox_1_ans_2"
+                android:textSize="@dimen/body_size" />
+
+            <TextView
+                android:id="@+id/paradox_1_choice_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/paradox_1_ans_3"
+                android:textSize="@dimen/body_size"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:background="@android:color/darker_gray" />
+
+        <!-- Paradox #2 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/margin">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_narrow"
+                android:text="@string/paradox_2"
+                android:textSize="@dimen/paradox_title"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_narrow"
+                android:text="@string/paradox_2_body"
+                android:textSize="@dimen/body_size" />
+
+
+            <TextView
+                android:id="@+id/paradox_2_choice_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/paradox_2_ans_1"
+                android:textSize="@dimen/body_size" />
+
+            <TextView
+                android:id="@+id/paradox_2_choice_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/paradox_2_ans_2"
+                android:textSize="@dimen/body_size" />
+
+            <TextView
+                android:id="@+id/paradox_2_choice_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/paradox_2_ans_3"
+                android:textSize="@dimen/body_size"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:background="@android:color/darker_gray" />
+
+        <!-- Paradox #3 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/margin">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_narrow"
+                android:text="@string/paradox_3"
+                android:textSize="@dimen/paradox_title"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_narrow"
+                android:text="@string/paradox_3_body"
+                android:textSize="@dimen/body_size" />
+
+
+            <TextView
+                android:id="@+id/paradox_3_choice_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/paradox_3_ans_1"
+                android:textSize="@dimen/body_size" />
+
+            <TextView
+                android:id="@+id/paradox_3_choice_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/paradox_3_ans_2"
+                android:textSize="@dimen/body_size" />
+
+            <TextView
+                android:id="@+id/paradox_3_choice_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/paradox_3_ans_3"
+                android:textSize="@dimen/body_size"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:background="@android:color/darker_gray" />
+
+        <!-- Paradox #4 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/margin">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_narrow"
+                android:text="@string/paradox_4"
+                android:textSize="@dimen/paradox_title"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_narrow"
+                android:text="@string/paradox_4_body"
+                android:textSize="@dimen/body_size" />
+
+
+            <TextView
+                android:id="@+id/paradox_4_choice_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/paradox_4_ans_1"
+                android:textSize="@dimen/body_size" />
+
+            <TextView
+                android:id="@+id/paradox_4_choice_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/paradox_4_ans_2"
+                android:textSize="@dimen/body_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/paradox_4_choice_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/paradox_4_ans_3"
+                android:textSize="@dimen/body_size" />
+
+            <TextView
+                android:id="@+id/paradox_4_choice_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/paradox_4_ans_4"
+                android:textSize="@dimen/body_size"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:background="@android:color/darker_gray" />
+
+        <!-- Paradox #5 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/margin">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_narrow"
+                android:text="@string/paradox_5"
+                android:textSize="@dimen/paradox_title"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_narrow"
+                android:text="@string/paradox_5_body"
+                android:textSize="@dimen/body_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/paradox_5_correct"
+                android:textSize="@dimen/body_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/paradox_5_guessed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/body_size" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin"
+            android:text="@string/score"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/score_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/score_default"
+                android:textSize="@dimen/score_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/score_max"
+                android:textSize="@dimen/title_size" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/result_image"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height"
+            android:src="@drawable/wheatley"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/result_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wheatley"
+            android:textSize="@dimen/body_size"
+            android:layout_margin="@dimen/margin"/>
+
+    </LinearLayout>
+</ScrollView>

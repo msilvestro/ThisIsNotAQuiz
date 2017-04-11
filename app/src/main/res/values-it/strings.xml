@@ -1,0 +1,63 @@
+<resources>
+
+    <string name="app_name">Questo non è un quiz</string>
+
+    <!-- Accept license -->
+    <string name="eula_title">Attenzione!</string>
+    <string name="eula_text">Please read this terms carefully before you start to take this quiz.\nIf you have further questions, please ask Google.\n\nWHAT THIS QUIZ IS AND WHAT IT IS USED FOR\nThe name of this quiz is \"This is not a quiz\". This is quite self-explicative, but if it is not, all its questions are based on paradoxes. This may help to achieve a better knowledge of some of the many paradoxes out there, or maybe only damage your brain.\n\nBEFORE YOU TAKE THIS QUIZ\nDo not take this quiz, if you:\n- are too smart\n- are a robot\n\nHOW TO TAKE THIS QUIZ\nSelect \"I accept the terms\" and \"I am not a robot\", then the \"Continue to the quiz\" button will start the quiz. There are five answers in total.\n\nPOSSIBLE SIDE EFFECTS\nLike all quizzes, \"This is not a quiz\" can cause side effects, although not everybody gets them.\n\nStop taking this quiz, or go to accident and emergency if you notice any of the following symptoms.\nAlthough the symptoms are very rare, they may be severe.\n- Symptoms of an allergic reaction - sudden wheeziness, difficulty in breathing, chest pain, fever, sudden swellings of the face, lips, tongue, throat, hands or feet, rash or itching (especially affecting the whole body), pericarditis (inflammation of the membrane surrounding the heart), worsening of systemic lupus erythematosus (autoimmune disease)\n- Increased pressure in the skull (severe headaches, blurred and/or double vision, blind spots, permanent loss of vision)\n- Low blood pressure\n- Unusual rapid heart beats (palpitations), fainting\n- Blood disorders (symptoms may include tiredness, weakness, easy bruising or susceptibility to infection)\n</string>
+    <string name="eula_accept">Accetto i termini</string>
+    <string name="eula_not_accept">Non accetto i termini</string>
+    <string name="captcha">Non sono un robot</string>
+    <string name="eula_continue">Vai al quiz</string>
+    <string name="paradox_lover">Bene. Ami i paradossi. Ora seleziona una sola scelta, per favore.</string>
+    <string name="select_choice">Leggi i termini e seleziona una casella.</string>
+    <string name="robot_warning">I robot che eseguono questo quiz possono essere soggetti a malfunzionamenti.</string>
+
+    <!-- Paradox #1 -->
+    <string name="paradox_1">Paradosso del mentitore</string>
+    <string name="paradox_1_body">Questa frase è FALSA.</string>
+    <string name="paradox_1_ans_1">Falso.</string>
+    <string name="paradox_1_ans_2">Uhm. \"VERA\". Credo che sceglierò \"vera\".</string>
+    <string name="paradox_1_ans_3">Non pensarci&#8230; Non pensarci&#8230;</string>
+
+    <!-- Paradox #2 -->
+    <string name="paradox_2">Paradosso di Russel</string>
+    <string name="paradox_2_body">L\'insieme di tutti gli insiemi che non appartengono a se stessi appartiene a se stesso?</string>
+    <string name="paradox_2_ans_1">Vero.</string>
+    <string name="paradox_2_ans_2">Falso.</string>
+    <string name="paradox_2_ans_3">Mi stai prendendo in giro?</string>
+
+    <!-- Paradox #3 -->
+    <string name="paradox_3">Paradosso di Curry</string>
+    <string name="paradox_3_body">Se questa frase è vera, allora Half Life 3 verrà rilasciato.</string>
+    <string name="paradox_3_ans_1">Vero.</string>
+    <string name="paradox_3_ans_2">Falso.</string>
+    <string name="paradox_3_ans_3">Half Life 3 confermato!</string>
+
+    <!-- Paradox #4 -->
+    <string name="paradox_4">Dilemma del coccodrillo</string>
+    <string name="paradox_4_body">Un coccodrillo, che ha rapito un bambino, promette alla madre che le restituirà suo figlio se riuscirà a indovinare corettamente quello che farà il coccodrillo.\nIn quali situazioni il coccodrillo si troverà in un paradosso?</string>
+    <string name="paradox_4_ans_1">La madre dice che il bambino verrà restituito, il coccodrillo decide di restituire il bambino.</string>
+    <string name="paradox_4_ans_2">La madre dice che il bambino non verrà restituito, il coccodrillo decide di tenere il bambino.</string>
+    <string name="paradox_4_ans_3">La madre dice che il bambino verrà restituito, il coccodrillo decide di tenere il bambino.</string>
+    <string name="paradox_4_ans_4">La madre dice che il bambino non verrà restituito, il coccodrillo decide di restituire il bambino.</string>
+
+    <!-- Paradox #5 -->
+    <string name="paradox_5">Paradosso di Zenone</string>
+    <string name="paradox_5_body">Achille sta svolgendo una corsa contro una tartaruga. Achille lascia alla tartaruga 100 metri di vantaggio. Dopo un tempo finito, Achille avrà percorso i 100 metri, portandolo al punto di partenza della tartaruga. Durante questo tempo, la tartaruga avrà percorso una distanza molto più breve di 10 metri. Ma nel tempo che Achille impiega a raggiungere i 110 metri, la tartaruga ne avrà percorsi altri 5. E quando avrà raggiunto i 115 metri, la tartaruga ne avrà percorsi altri 2.5, poi 1.25, e così via.\nQuando riuscirà Achille a raggiungere la tartaruga?</string>
+    <string name="paradox_5_hint">Scrivi un numero (in metri) o \"Mai\"</string>
+
+    <!-- Confirm quiz choices -->
+    <string name="confirm">Conferma</string>
+    <string name="missing_choices">%1$s sono vuoti.</string>
+
+    <!-- Result screen -->
+    <string name="result_explanation">La risposta giusta è segnata in grassetto, mentre la risposta data è colorata.</string>
+    <string name="paradox_5_correct">Mai</string>
+    <string name="score">Punteggio totale:</string>
+    <string name="score_default">0</string>
+    <string name="score_max">/50</string>
+    <string name="wheatley">Sei a prova di paradossi, come Wheatley.\nAspetta, è davvero sembrato un complimento?</string>
+    <string name="glados">Sei vulnerabile agli attacchi basati su paradossi, come GLaDOS.\nAspetta, è davvero sembrato offensivo?</string>
+
+</resources>

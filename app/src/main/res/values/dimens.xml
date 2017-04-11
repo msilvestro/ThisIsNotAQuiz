@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="margin_narrow">8dp</dimen>
+    <dimen name="image_height">200dp</dimen>
+    <!-- Text sizes -->
+    <dimen name="title_size">32sp</dimen>
+    <dimen name="body_size">16sp</dimen>
+    <dimen name="paradox_title">24sp</dimen>
+    <dimen name="score_size">64sp</dimen>
+</resources>

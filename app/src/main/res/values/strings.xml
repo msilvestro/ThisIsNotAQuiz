@@ -1,0 +1,63 @@
+<resources>
+
+    <string name="app_name">This is not a quiz</string>
+
+    <!-- Accept license -->
+    <string name="eula_title">Warning!</string>
+    <string name="eula_text">Please read this terms carefully before you start to take this quiz.\nIf you have further questions, please ask Google.\n\nWHAT THIS QUIZ IS AND WHAT IT IS USED FOR\nThe name of this quiz is \"This is not a quiz\". This is quite self-explicative, but if it is not, all its questions are based on paradoxes. This may help to achieve a better knowledge of some of the many paradoxes out there, or maybe only damage your brain.\n\nBEFORE YOU TAKE THIS QUIZ\nDo not take this quiz, if you:\n- are too smart\n- are a robot\n\nHOW TO TAKE THIS QUIZ\nSelect \"I accept the terms\" and \"I am not a robot\", then the \"Continue to the quiz\" button will start the quiz. There are five answers in total.\n\nPOSSIBLE SIDE EFFECTS\nLike all quizzes, \"This is not a quiz\" can cause side effects, although not everybody gets them.\n\nStop taking this quiz, or go to accident and emergency if you notice any of the following symptoms.\nAlthough the symptoms are very rare, they may be severe.\n- Symptoms of an allergic reaction - sudden wheeziness, difficulty in breathing, chest pain, fever, sudden swellings of the face, lips, tongue, throat, hands or feet, rash or itching (especially affecting the whole body), pericarditis (inflammation of the membrane surrounding the heart), worsening of systemic lupus erythematosus (autoimmune disease)\n- Increased pressure in the skull (severe headaches, blurred and/or double vision, blind spots, permanent loss of vision)\n- Low blood pressure\n- Unusual rapid heart beats (palpitations), fainting\n- Blood disorders (symptoms may include tiredness, weakness, easy bruising or susceptibility to infection)\n</string>
+    <string name="eula_accept">I accept the terms</string>
+    <string name="eula_not_accept">I do not accept the terms</string>
+    <string name="captcha">I am not a robot</string>
+    <string name="eula_continue">Continue to the quiz</string>
+    <string name="paradox_lover">Fine. You love paradoxes. Now select only one choice, please.</string>
+    <string name="select_choice">Please read the terms and select a choice.</string>
+    <string name="robot_warning">Robots performing this quiz may incur into malfunctioning.</string>
+
+    <!-- Paradox #1 -->
+    <string name="paradox_1">Liar paradox</string>
+    <string name="paradox_1_body">This sentence is FALSE.</string>
+    <string name="paradox_1_ans_1">False.</string>
+    <string name="paradox_1_ans_2">Um. \'TRUE\'. I\'ll go \'true\'.</string>
+    <string name="paradox_1_ans_3">Don\'t think about it don\'t think about it&#8230;</string>
+
+    <!-- Paradox #2 -->
+    <string name="paradox_2">Russel\'s paradox</string>
+    <string name="paradox_2_body">Does the set of all those sets that do not contain themselves contain itself?</string>
+    <string name="paradox_2_ans_1">True.</string>
+    <string name="paradox_2_ans_2">False.</string>
+    <string name="paradox_2_ans_3">Are you kidding me?</string>
+
+    <!-- Paradox #3 -->
+    <string name="paradox_3">Curry\'s paradox</string>
+    <string name="paradox_3_body">If this sentence is true, then Half Life 3 will be released.</string>
+    <string name="paradox_3_ans_1">True.</string>
+    <string name="paradox_3_ans_2">False.</string>
+    <string name="paradox_3_ans_3">Half Life 3 confirmed!</string>
+
+    <!-- Paradox #4 -->
+    <string name="paradox_4">Crocodile dilemma</string>
+    <string name="paradox_4_body">A crocodile, who has stolen a child, promises her mother that her child will be returned if and only if she correctly predict what the crocodile will do next.\nIn which situations will a paradox arise for the crocodile?</string>
+    <string name="paradox_4_ans_1">The mother guesses that the child will be returned, the crocodile decides to return the child.</string>
+    <string name="paradox_4_ans_2">The mother guesses that the child will not be returned, the crocodile decides to keep the child.</string>
+    <string name="paradox_4_ans_3">The mother guesses that the child will be returned, the crocodile decides to keep the child.</string>
+    <string name="paradox_4_ans_4">The mother guesses that the child will not be returned, the crocodile decides to return the child.</string>
+
+    <!-- Paradox #5 -->
+    <string name="paradox_5">Zeno\'s paradox</string>
+    <string name="paradox_5_body">Achilles is in a footrace with a tortoise. Achille allows the tortoise a head start of 100 meters. After some finite time, Achilles will have run 100 meters, bringing him to the tortoise\'s starting point. During this time, the tortoise has run a much shorter distance of 10 meters. But by the time Achilles has reached the 110 meters mark, the tortoise has walked another 5 meters. And by the time he has reached the 115 meters mark, the tortoise has walked another 2.5 meters, then 1.25 meters, and so on.\nWhen will Achilles catch up with the tortoise?</string>
+    <string name="paradox_5_hint">Write a number (in meters) or \"Never\"</string>
+
+    <!-- Confirm quiz choices -->
+    <string name="confirm">Confirm</string>
+    <string name="missing_choices">%1$s empty.</string>
+
+    <!-- Result screen -->
+    <string name="result_explanation">The right answer is marked in bold, while the answer given is marked with a color.</string>
+    <string name="paradox_5_correct">Never</string>
+    <string name="score">Total score:</string>
+    <string name="score_default">0</string>
+    <string name="score_max">/50</string>
+    <string name="wheatley">You are paradox-proof, like Wheatley.\nWait, did it sound like a compliment?</string>
+    <string name="glados">You are weak to paradox-based attacks, like GLaDOS.\nWait, did it sound like an offence?</string>
+
+</resources>
